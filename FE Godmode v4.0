@@ -1,3 +1,19 @@
+local StarterGui = game:GetService("StarterGui")
+
+local message = "Please note that this wont work in every game."
+StarterGui:SetCore("SendNotification", {
+    Title = "FE GODMODE MADE BY 'SDL Scripts'😈",
+    Text = message,
+    Duration = 5
+})
+
+
+wait()
+
+
+
+
+
 --[[
  .____                  ________ ___.    _____                           __                
  |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
